@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
     
 }
-
+/* Specifies header box attributes */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,10 +21,6 @@ header h1 {
     font-size: 48px;
 }
 
-.seo {
-    color: #d9dcd6;
-}
-
 header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,21 +29,25 @@ header ul {
     font-size: 20px;
     list-style-type: none;
 }
-
+/* Displays Nav links in a row */
 header ul li {
     display: inline-block;
     margin-left: 25px;
+}
+/* Changes the color of "seo" */
+.seo {
+    color: #d9dcd6;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* All paragraphs have font-size 16. */
 p {
     font-size: 16px;
 }
-
+/* These are the attributes for the background image in the top of the body. */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,6 +63,11 @@ main {
     margin-left: 20px;
 }
 
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* "Main" aricles were consolidated since they shared attributes. */
 main article {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,7 +76,11 @@ main article {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Consolidated image attributes*/
+main article img {
+    max-height: 200px;
+}
+/* Tells the three pictures where to land in their box, left or right. */ 
 .float-left {
     float: left;
     margin-right: 25px;
@@ -92,33 +101,24 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated article attributes*/
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
 }
-
+/*Consolidated header attributes*/
  aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Consolidated image attributes*/
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-main article img {
-    max-height: 200px;
-}
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Assigns footer attributes. */
 footer {
     padding: 30px;
     clear: both;
