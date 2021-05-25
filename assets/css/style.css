@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    
 }
 
 header {
@@ -14,6 +15,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 
 header h1 {
     display: inline-block;
